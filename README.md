@@ -1,13 +1,23 @@
-# Create ASP.NET-App
-1. Clone or download source files.
-2. Open the project with Visual Studio.
-3. Build your project.
-4. Publish project.
+## Create ASP.NET-App
 
-# Run with IIS On Microsoft machine
-1. Open IIS
-2. Add new Application Pool.
-3. Add new website, enter port 5100.
-4. transfer file from bin\Release\net5.0\publish to C:\inetpub\wwwroot\<projectName> at windows machine using RDP.
-5. enter IIS and click " Browse *:5100 ".
-6. Browse to http://localhost:5100/ from your windows machine.
+- Clone the project
+
+```bash
+  git clone https://github.com/orbashan94/ASP.NET-App.git
+```
+- Open the project with Visual Studio.
+- Build your project
+- Publish project
+
+## Run with IIS On Microsoft machine
+
+- Open IIS
+- Add new Application Pool.
+- Add new website, enter port 5100.
+- transfer file from bin\Release\net5.0\publish to C:\inetpub\wwwroot<projectName> at windows machine using RDP.
+- enter IIS and click " Browse *:5100 ".
+- Browse to http://localhost:5100/ from your windows machine.
+## Output
+
+![App Screenshot](https://media.discordapp.net/attachments/942829408178298880/951641661279191130/Capture.PNG?width=1179&height=663)
+
