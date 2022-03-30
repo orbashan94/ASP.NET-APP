@@ -14,8 +14,8 @@
 - Open IIS
 - Add new Application Pool.
 - Add new website, enter port 5100.
-- transfer file from bin\Release\net5.0\publish to C:\inetpub\wwwroot<projectName> at windows machine using RDP.
-- enter IIS and click " Browse *:5100 ".
+- Move file from bin\Release\net5.0\publish to C:\inetpub\wwwroot<projectName> at windows machine using RDP.
+- Enter IIS and click " Browse *:5100 ".
 - Browse to http://localhost:5100/ from your windows machine.
 ## Output
 
